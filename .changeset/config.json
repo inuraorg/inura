@@ -1,0 +1,11 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
+  "changelog": ["@changesets/changelog-github", { "repo": "inuraorg/inura" }],
+  "commit": false,
+  "fixed": [],
+  "linked": [["@eth-inura/contracts-bedrock", "@eth-inura/contracts-ts"]],
+  "access": "public",
+  "baseBranch": "develop",
+  "updateInternalDependencies": "patch",
+  "ignore": []
+}

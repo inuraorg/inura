@@ -1,0 +1,61 @@
+{
+  "finalSystemOwner": "0x140cB6Df06448B3F490BB9a76D5c397f6c18f09b",
+  "portalGuardian": "0x140cB6Df06448B3F490BB9a76D5c397f6c18f09b",
+
+  "l1StartingBlockTag": "0xd2e6ca621120520079de37ade2188178bc76bc78f0dff8ce2a96352aecb6351b",
+
+  "l1ChainID": 5,
+  "l2ChainID": 10114,
+  "l2BlockTime": 2,
+  "l1BlockTime": 12,
+
+  "maxSequencerDrift": 50,
+  "sequencerWindowSize": 500,
+  "channelTimeout": 300,
+
+  "p2pSequencerAddress": "0x33A5258966e4EE6d2631e5F781026C71DECC5557",
+  "batchInboxAddress": "0x8f873Dc3d6633693b5Abcf7c8D409720F00595eC",
+  "batchSenderAddress": "0x1b291185a2C2bDe711a8af9B403B8f5A8cfa0284",
+
+  "l2OutputOracleSubmissionInterval": 120,
+  "l2OutputOracleStartingBlockNumber": 0,
+  "l2OutputOracleStartingTimestamp": 0,
+
+  "l2OutputOracleProposer": "0xEfeE762ccB6EEE1DA8951B5636b8321289d1eA15",
+  "l2OutputOracleChallenger": "0x140cB6Df06448B3F490BB9a76D5c397f6c18f09b",
+
+  "finalizationPeriodSeconds": 12,
+
+  "proxyAdminOwner": "0x140cB6Df06448B3F490BB9a76D5c397f6c18f09b",
+  "baseFeeVaultRecipient": "0x140cB6Df06448B3F490BB9a76D5c397f6c18f09b",
+  "l1FeeVaultRecipient": "0x140cB6Df06448B3F490BB9a76D5c397f6c18f09b",
+  "sequencerFeeVaultRecipient": "0x140cB6Df06448B3F490BB9a76D5c397f6c18f09b",
+
+  "baseFeeVaultMinimumWithdrawalAmount": "0x1BC16D674EC80000",
+  "l1FeeVaultMinimumWithdrawalAmount": "0x1BC16D674EC80000",
+  "sequencerFeeVaultMinimumWithdrawalAmount": "0x1BC16D674EC80000",
+  "baseFeeVaultWithdrawalNetwork": 0,
+  "l1FeeVaultWithdrawalNetwork": 0,
+  "sequencerFeeVaultWithdrawalNetwork": 0,
+
+  "gasPriceOracleOverhead": 2100,
+  "gasPriceOracleScalar": 1000000,
+
+  "enableGovernance": true,
+  "governanceTokenSymbol": "INURA",
+  "governanceTokenName": "Inura",
+  "governanceTokenOwner": "0x140cB6Df06448B3F490BB9a76D5c397f6c18f09b",
+
+  "l2GenesisBlockGasLimit": "0x1c9c380",
+  "l2GenesisBlockBaseFeePerGas": "0x3b9aca00",
+  "l2GenesisRegolithTimeOffset": "0x0",
+
+  "eip1559Denominator": 50,
+  "eip1559DenominatorCanyon": 250,
+  "eip1559Elasticity": 10,
+
+  "systemConfigStartBlock": 0,
+
+  "requiredProtocolVersion": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "recommendedProtocolVersion": "0x0000000000000000000000000000000000000000000000000000000000000000"
+}
