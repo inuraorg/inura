@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <br />
-  <a href="https://inurascan.io"><img alt="Inura" src="https://avatars.githubusercontent.com/u/147570798?v=4" width=600></a>
+  <a href="https://inurascan.io"><img alt="Inura" src="./inuralogo-black 1.png" width=600></a>
   <br />
   <h3><a href="https://inurascan.io">Inura</a> is Ethereum, scaled.</h3>
   <br />
