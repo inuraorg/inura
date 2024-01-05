@@ -8,7 +8,7 @@
     "url": "https://github.com/inuraorg/inura.git",
     "directory": "packages/contracts-ts"
   },
-  "homepage": "https://blastchain.org",
+  "homepage": "https://inurascan.io",
   "type": "module",
   "main": "dist/constants.cjs",
   "module": "dist/constants.js",

@@ -15,11 +15,11 @@ import { ethers } from 'ethers'
 // import l1CrossDomainMessengerArtifactMainnet from '@eth-inura/contracts-bedrock/deployments/mainnet/L1CrossDomainMessengerProxy.json'
 // import l1CrossDomainMessengerArtifactGoerli from '@eth-inura/contracts-bedrock/deployments/goerli/L1CrossDomainMessengerProxy.json'
 // import l1CrossDomainMessengerArtifactSepolia from '@eth-inura/contracts-bedrock/deployments/sepolia/L1CrossDomainMessengerProxy.json'
-import portalArtifactsBlast from '@eth-inura/contracts-bedrock/deployments/inura-mainnet/OptimismPortalProxy.json'
-import l2OutputOracleArtifactsBlast from '@eth-inura/contracts-bedrock/deployments/inura-mainnet/L2OutputOracleProxy.json'
-import addressManagerArtifactBlast from '@eth-inura/contracts-bedrock/deployments/inura-mainnet/AddressManager.json'
-import l1StandardBridgeArtifactBlast from '@eth-inura/contracts-bedrock/deployments/inura-mainnet/L1StandardBridgeProxy.json'
-import l1CrossDomainMessengerArtifactBlast from '@eth-inura/contracts-bedrock/deployments/inura-mainnet/L1CrossDomainMessengerProxy.json'
+// import portalArtifactsBlast from '@eth-inura/contracts-bedrock/deployments/inura-mainnet/OptimismPortalProxy.json'
+// import l2OutputOracleArtifactsBlast from '@eth-inura/contracts-bedrock/deployments/inura-mainnet/L2OutputOracleProxy.json'
+// import addressManagerArtifactBlast from '@eth-inura/contracts-bedrock/deployments/inura-mainnet/AddressManager.json'
+// import l1StandardBridgeArtifactBlast from '@eth-inura/contracts-bedrock/deployments/inura-mainnet/L1StandardBridgeProxy.json'
+// import l1CrossDomainMessengerArtifactBlast from '@eth-inura/contracts-bedrock/deployments/inura-mainnet/L1CrossDomainMessengerProxy.json'
 import portalArtifactsBlastGoerli from '@eth-inura/contracts-bedrock/deployments/inura-goerli/OptimismPortalProxy.json'
 import l2OutputOracleArtifactsBlastGoerli from '@eth-inura/contracts-bedrock/deployments/inura-goerli/L2OutputOracleProxy.json'
 import addressManagerArtifactBlastGoerli from '@eth-inura/contracts-bedrock/deployments/inura-goerli/AddressManager.json'
@@ -29,36 +29,36 @@ import l1CrossDomainMessengerArtifactBlastGoerli from '@eth-inura/contracts-bedr
 const portalAddresses = {
   // mainnet: portalArtifactsMainnet.address,
   // sepolia: portalArtifactsSepolia.address,
-  blastgoerli: portalArtifactsBlastGoerli.address,
-  inura: portalArtifactsBlast.address,
+  inuragoerli: portalArtifactsBlastGoerli.address,
+  // inura: portalArtifactsBlast.address,
 }
 
 const l2OutputOracleAddresses = {
   // mainnet: l2OutputOracleArtifactsMainnet.address,
   // sepolia: l2OutputOracleArtifactsSepolia.address,
-  blastgoerli: l2OutputOracleArtifactsBlastGoerli.address,
-  inura: l2OutputOracleArtifactsBlast.address,
+  inuragoerli: l2OutputOracleArtifactsBlastGoerli.address,
+  // inura: l2OutputOracleArtifactsBlast.address,
 }
 
 const addressManagerAddresses = {
   // mainnet: addressManagerArtifactMainnet.address,
   // sepolia: addressManagerArtifactSepolia.address,
-  blastgoerli: addressManagerArtifactBlastGoerli.address,
-  inura: addressManagerArtifactBlast.address,
+  inuragoerli: addressManagerArtifactBlastGoerli.address,
+  // inura: addressManagerArtifactBlast.address,
 }
 
 const l1StandardBridgeAddresses = {
   // mainnet: l1StandardBridgeArtifactMainnet.address,
   // sepolia: l1StandardBridgeArtifactSepolia.address,
-  blastgoerli: l1StandardBridgeArtifactBlastGoerli.address,
-  inura: l1StandardBridgeArtifactBlast.address,
+  inuragoerli: l1StandardBridgeArtifactBlastGoerli.address,
+  // inura: l1StandardBridgeArtifactBlast.address,
 }
 
 const l1CrossDomainMessengerAddresses = {
   // mainnet: l1CrossDomainMessengerArtifactMainnet.address,
   // sepolia: l1CrossDomainMessengerArtifactSepolia.address,
-  blastgoerli: l1CrossDomainMessengerArtifactBlastGoerli.address,
-  inura: l1CrossDomainMessengerArtifactBlast.address,
+  inuragoerli: l1CrossDomainMessengerArtifactBlastGoerli.address,
+  // inura: l1CrossDomainMessengerArtifactBlast.address,
 }
 
 // legacy
@@ -66,7 +66,7 @@ const stateCommitmentChainAddresses = {
   // mainnet: '0xBe5dAb4A2e9cd0F27300dB4aB94BeE3A233AEB19',
   // sepolia: ethers.constants.AddressZero,
   inura: ethers.constants.AddressZero,
-  blastgoerli: ethers.constants.AddressZero,
+  inuragoerli: ethers.constants.AddressZero,
 }
 
 // legacy
@@ -75,7 +75,7 @@ const canonicalTransactionChainAddresses = {
   // sepolia: ethers.constants.AddressZero,
   // goerli: ethers.constants.AddressZero,
   inura: ethers.constants.AddressZero,
-  blastgoerli: ethers.constants.AddressZero,
+  inuragoerli: ethers.constants.AddressZero,
 }
 
 import {
@@ -106,8 +106,8 @@ export const DEPOSIT_CONFIRMATION_BLOCKS: {
   // [L2ChainID.BASE_MAINNET]: 10 as const,
   // [L2ChainID.ZORA_GOERLI]: 12 as const,
   // [L2ChainID.ZORA_MAINNET]: 50 as const,
-  [L2ChainID.BLAST]: 50 as const,
-  [L2ChainID.BLAST_GOERLI]: 12 as const,
+  // [L2ChainID.BLAST]: 50 as const,
+  [L2ChainID.INURA_GOERLI]: 12 as const,
 }
 
 export const CHAIN_BLOCK_TIMES: {
@@ -176,16 +176,16 @@ export const CONTRACT_ADDRESSES: {
   //   l1: getL1ContractsByNetworkName('sepolia'),
   //   l2: DEFAULT_L2_CONTRACT_ADDRESSES,
   // },
-  [L2ChainID.BLAST]: {
-    l1: getL1ContractsByNetworkName('inura'),
-    l2: DEFAULT_L2_CONTRACT_ADDRESSES,
-  },
+  // [L2ChainID.INURA]: {
+  //   l1: getL1ContractsByNetworkName('inura'),
+  //   l2: DEFAULT_L2_CONTRACT_ADDRESSES,
+  // },
   // [L2ChainID.BASE_GOERLI]: {
   //   l1: getL1ContractsByNetworkName('goerli'),
   //   l2: DEFAULT_L2_CONTRACT_ADDRESSES,
   // },
-  [L2ChainID.BLAST_GOERLI]: {
-    l1: getL1ContractsByNetworkName('blastgoerli'),
+  [L2ChainID.INURA_GOERLI]: {
+    l1: getL1ContractsByNetworkName('inuragoerli'),
     l2: DEFAULT_L2_CONTRACT_ADDRESSES,
   },
   [L2ChainID.OPTIMISM_HARDHAT_LOCAL]: {

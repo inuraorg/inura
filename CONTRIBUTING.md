@@ -8,8 +8,8 @@ There are plenty of ways to contribute, in particular we appreciate support in t
 
 - Reporting issues. For security issues see [Security policy](https://github.com/inuraorg/.github/blob/master/SECURITY.md).
 - Fixing and responding to existing issues. You can start off with those tagged ["good first issue"](https://github.com/inuraorg/inura/contribute) which are meant as introductory issues for external contributors.
-- Improving the [community site](https://community.blastblockchain.com/), [documentation](https://github.com/inuraorg/community-hub) and [tutorials](https://github.com/inuraorg/inura-tutorial).
-- Become an "Optimizer" and answer questions in the [Inura Discord](https://discord.blastblockchain.com).
+- Improving the [community site](https://community.inurascan.io/), [documentation](https://github.com/inuraorg/community-hub) and [tutorials](https://github.com/inuraorg/inura-tutorial).
+- Become an "Optimizer" and answer questions in the [Inura Discord](https://discord.inurascan.io).
 - Get involved in the protocol design process by proposing changes or new features or write parts of the spec yourself in the [specs subdirectory](./specs/).
 
 Note that we have a [Code of Conduct](https://github.com/inuraorg/.github/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.

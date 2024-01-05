@@ -8,32 +8,32 @@ import {
 } from '@eth-inura/common-ts'
 import { getChainId, compareAddrs } from '@eth-inura/core-utils'
 import { Provider, TransactionResponse } from '@ethersproject/abstract-provider'
-import mainnetConfig from '@eth-inura/contracts-bedrock/deploy-config/mainnet.json'
-import goerliConfig from '@eth-inura/contracts-bedrock/deploy-config/goerli.json'
-import l2OutputOracleArtifactsMainnet from '@eth-inura/contracts-bedrock/deployments/mainnet/L2OutputOracleProxy.json'
-import l2OutputOracleArtifactsGoerli from '@eth-inura/contracts-bedrock/deployments/goerli/L2OutputOracleProxy.json'
+// import mainnetConfig from '@eth-inura/contracts-bedrock/deploy-config/mainnet.json'
+import goerliConfig from '@eth-inura/contracts-bedrock/deploy-config/inura-goerli.json'
+// import l2OutputOracleArtifactsMainnet from '@eth-inura/contracts-bedrock/deployments/mainnet/L2OutputOracleProxy.json'
+import l2OutputOracleArtifactsGoerli from '@eth-inura/contracts-bedrock/deployments/inura-goerli/L2OutputOracleProxy.json'
 
 import { version } from '../../package.json'
 
 const networks = {
-  1: {
-    name: 'mainnet',
-    l1StartingBlockTag: mainnetConfig.l1StartingBlockTag,
-    accounts: [
-      {
-        label: 'Proposer',
-        wallet: mainnetConfig.l2OutputOracleProposer,
-        target: l2OutputOracleArtifactsMainnet.address,
-      },
-      {
-        label: 'Batcher',
-        wallet: mainnetConfig.batchSenderAddress,
-        target: mainnetConfig.batchInboxAddress,
-      },
-    ],
-  },
-  10: {
-    name: 'goerli',
+  // 1: {
+  //   name: 'mainnet',
+  //   l1StartingBlockTag: mainnetConfig.l1StartingBlockTag,
+  //   accounts: [
+  //     {
+  //       label: 'Proposer',
+  //       wallet: mainnetConfig.l2OutputOracleProposer,
+  //       target: l2OutputOracleArtifactsMainnet.address,
+  //     },
+  //     {
+  //       label: 'Batcher',
+  //       wallet: mainnetConfig.batchSenderAddress,
+  //       target: mainnetConfig.batchInboxAddress,
+  //     },
+  //   ],
+  // },
+  10114: {
+    name: 'inura-goerli',
     l1StartingBlockTag: goerliConfig.l1StartingBlockTag,
     accounts: [
       {

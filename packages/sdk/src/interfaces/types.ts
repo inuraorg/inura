@@ -35,8 +35,7 @@ export enum L2ChainID {
   // BASE_MAINNET = 8453,
   // ZORA_GOERLI = 999,
   // ZORA_MAINNET = 7777777,
-  BLAST = 23888,
-  BLAST_GOERLI = 239,
+  INURA_GOERLI = 10114,
 }
 
 /**

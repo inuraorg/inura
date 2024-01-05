@@ -1,6 +1,6 @@
 {
   "name": "@eth-inura/core-utils",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "description": "[Inura] Core typescript utilities",
   "main": "dist/index",
   "types": "dist/index",

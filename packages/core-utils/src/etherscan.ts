@@ -34,15 +34,10 @@ const networks: {
     names: ['optimism'],
     etherscanApiUrl: 'https://api-optimistic.etherscan.io',
   },
-  238: {
-    chainId: 238,
-    names: ['inura'],
-    etherscanApiUrl: 'https://blastchain.org/api',
-  },
-  23888: {
-    chainId: 23888,
+  10114: {
+    chainId: 10114,
     names: ['inura-goerli'],
-    etherscanApiUrl: 'https://testnet-explorer.blastchain.org/api',
+    etherscanApiUrl: 'https://testnet-explorer.inurascan.io/api',
 },
   42: {
     chainId: 42,

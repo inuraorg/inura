@@ -23,7 +23,7 @@ import (
 	"github.com/inuraorg/inura/inura-chain-ops/immutables"
 	"github.com/inuraorg/inura/inura-chain-ops/state"
 	"github.com/inuraorg/inura/inura-node/rollup"
-	"github.com/inuraorg/inura/bl-service/eth"
+	"github.com/inuraorg/inura/inura-service/eth"
 )
 
 // initialzedValue represents the `Initializable` contract value. It should be kept in

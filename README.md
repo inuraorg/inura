@@ -9,7 +9,7 @@
 
 ## What is Inura?
 
-[Inura](https://www.blastblockchain.com/) is a blockchain built on the Optimism rollup, inheriting the powerful OP Stack. As a project dedicated to advancing Ethereum's capabilities, Inura focuses on scaling technology and fostering global collaboration in decentralized economies and governance systems. The Inura Collective, driving this initiative, develops open-source software to address key challenges in the broader cryptocurrency ecosystem. Guided by the principle of **impact=profit**, Inura rewards contributors proportionately, aiming to redefine incentives and positively impact the world. Explore our repository to engage with essential components of the OP Stack, contributing to the collaborative advancement of the Ethereum ecosystem.
+[Inura](https://www.inurascan.io/) is a blockchain built on the Optimism rollup, inheriting the powerful OP Stack. As a project dedicated to advancing Ethereum's capabilities, Inura focuses on scaling technology and fostering global collaboration in decentralized economies and governance systems. The Inura Collective, driving this initiative, develops open-source software to address key challenges in the broader cryptocurrency ecosystem. Guided by the principle of **impact=profit**, Inura rewards contributors proportionately, aiming to redefine incentives and positively impact the world. Explore our repository to engage with essential components of the OP Stack, contributing to the collaborative advancement of the Ethereum ecosystem.
 
 ## Directory Structure
 
